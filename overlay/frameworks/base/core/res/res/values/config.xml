@@ -455,4 +455,11 @@
 
     <!-- True if camera app should be pinned via Pinner Service -->
     <bool name="config_pinnerCameraApp">true</bool>
+     
+     <!-- Whether device has screen with higher aspect ratio -->
+    <bool name="config_haveHigherAspectRatioScreen">true</bool>
+
+    <!-- Aspect ratio of screen -->
+    <item name="config_screenAspectRatio" format="float" type="dimen">2.1</item>
+
 </resources>
